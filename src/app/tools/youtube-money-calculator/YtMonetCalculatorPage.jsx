@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client"
 import { formatDate } from '@/utils/formatDate';
 import Link from 'next/link';
@@ -121,28 +122,7 @@ function YtMonetCalculatorPage() {
                                                 <p className='lg:text-4xl text-3xl font-bold mt-2'>{getCountryName(channelData?.country)}</p>
                                             </div>
                                         </div>
-                                        <div className='mt-5 flex flex-col gap-5 lg:flex-row justify-between px-8 lg:px-20 pb-7'>
-                                            <Link
-                                                href="/buy-youtube-subscribers"
-                                                className='bg-primary py-3 px-9 text-center rounded-full text-lg text-white font-semibold'
-                                            >Boost Subscribers
-                                            </Link>
-                                            <Link
-                                                href="/buy-youtube-views"
-                                                className='bg-primary py-3 px-9 text-center rounded-full text-lg text-white font-semibold'
-                                            >Buy Views
-                                            </Link>
-                                            <Link
-                                                href="/buy-youtube-likes"
-                                                className='bg-primary py-3 px-9 text-center rounded-full text-lg text-white font-semibold'
-                                            >Buy Likes
-                                            </Link>
-                                            <Link
-                                                href="/buy-youtube-comments"
-                                                className='bg-primary py-3 px-9 text-center rounded-full text-lg text-white font-semibold'
-                                            >Buy Comments
-                                            </Link>
-                                        </div>
+
                                     </div>
                                 ) : null}
                             </div>
